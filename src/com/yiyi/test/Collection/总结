@@ -1,0 +1,12 @@
+1.各Collection接口及其子类的继承关系
+
+Collection  --->  Set \ List  \Queue
+
+Set   -->  HashSet
+
+List  -->  Arrayist  \  LinkedList
+
+Queue -->  Queue(单向队列) \  Dqueue(双向队列)
+
+
+2.

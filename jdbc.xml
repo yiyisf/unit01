@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>jdbc xml配置信息</comment>
+<entry key="user">yiyi</entry>
+<entry key="password">yiyi</entry>
+<entry key="url">jdbc:mysql://20.22.22.22:3306</entry>
+<entry key="driver">mysql.jdbc.driver</entry>
+</properties>
