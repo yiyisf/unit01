@@ -65,12 +65,22 @@ public class HelloWorldPrinter implements Printable, ActionListener {
          */
         Graphics2D g2d = (Graphics2D)g;
         g2d.translate(pf.getImageableX(), pf.getImageableY());
-
         /* Now we perform our rendering */
+        g.drawRoundRect(10,10,150,70,40,25);//画一个圆角矩形
+        g.setColor(Color.blue);
+        g.fillRoundRect(80,100,100,100,60,40);//涂一个圆角矩形块
+        g.drawRoundRect(10,150,40,40,40,40);//画圆
+        g.setColor(Color.red);
+        g.fillRoundRect(80,100,100,100,100,100);//画圆块
+        g.drawRect(10,10,200,200);//画线框
+        g.setColor(Color.yellow);
+        g.fillRect(20,70,20,30);//画着色块
+        g.setColor(Color.BLACK);
+        Font font = new Font("楷体",0,14);
+        g.setFont(font);
         g.drawString("Hello world! \n你好!", 100, 100);
         g.drawString("Hello world! \n你好!", 100, 150);
         g.drawString("哈哈! \n你好!", 100, 200);
-
         /* tell the caller that this page is part of the printed document */
         return PAGE_EXISTS;
     }
